@@ -28,5 +28,5 @@ for x in elements:
         negatives.append(x)
     else:
         positives.append(x)
-Z = negatives + positives
-print ("Список с определённой последовательностью: ", Z)
+elements = negatives + positives
+print ("Список с определённой последовательностью: ", elements)
