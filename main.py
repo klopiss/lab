@@ -22,4 +22,8 @@ if S0 in S:
 else:
     print ("Результат:", S)
 
-
+if S0 in S:
+    index = None
+    for i in range(len(S) - len(S0) + 1):
+        if S[i:i +len(S0)] == S0:
+            index = i
